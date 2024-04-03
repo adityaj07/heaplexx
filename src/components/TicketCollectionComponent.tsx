@@ -2,6 +2,7 @@ import { poppins } from "@/font";
 import { FC } from "react";
 
 import TicketCarousel from "./TicketCarousel";
+import { ChevronRight } from "lucide-react";
 
 const TicketCollectionComponent: FC = () => {
   return (
@@ -19,8 +20,13 @@ const TicketCollectionComponent: FC = () => {
         experience. Grab yours today!
       </p>
 
-      <div className="flex justify-center items-center ml-0 mb-12">
+      <div className="flex justify-center items-center ml-12 mb-12">
         <TicketCarousel />
+        
+      </div>
+      <div className="flex gap-1 text-center mb-6 lg:hidden">
+        <p >Swipe</p>
+        <ChevronRight />
       </div>
     </div>
   );

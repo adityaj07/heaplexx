@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Component for Hexleap</h1>
+<p align="center">
+  <img src="public/demo/Desktop-1.png" alt="hexleap">
+</p>
 
-## Getting Started
+#### Component using Nextjs, Tailwind css(Shadcn UI),and Typescript.
 
-First, run the development server:
+## Technology used:
+
+- Nextjs
+- Tailwind css(Shadcn UI)
+- Typescript
+
+## Screenshots:
+
+### Desktop View:
+
+<table>
+  <tr>
+    <td>
+      <img src="public/demo/Desktop-1.png" alt="DesktopImage 1">
+    </td>
+    <td>
+      <img src="public/demo/Desktop-2.png" alt="DesktopImage 2">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="public/demo/Desktop-3.png" alt="DesktopImage 3">
+    </td>
+    <td>
+      <img src="public/demo/Desktop-4.png" alt="DesktopImage 4">
+    </td>
+  </tr>
+</table>
+
+### Mobile View:
+
+<table>
+  <tr>
+    <td>
+      <img src="public/demo/Mobile-3.jpg" alt="MobileImage 1">
+    </td>
+    <td>
+      <img src="public/demo/Mobile-2.jpg" alt="MobileImage 2">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="public/demo/Mobile-1.jpg" alt="MobileImage 3">
+    </td>
+    <td>
+      <img src="public/demo/Mobile-5.jpg" alt="MobileImage 4">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="public/demo/Mobile-4.jpg" alt="MobileImage 5">
+    </td>
+  </tr>
+</table>
+
+### Mobile(320px) View:
+
+<table>
+  <tr>
+    <td>
+      <img src="public/demo/320px-1.png" alt="MobileImage 1">
+    </td>
+    <td>
+      <img src="public/demo/320px-2.png" alt="MobileImage 2">
+    </td>
+    <td>
+      <img src="public/demo/320px-3.png" alt="MobileImage 3">
+    </td>
+  </tr>
+</table>
+
+## Project Setup
+
+1. _Clone the repository_
+
+```bash
+git clone https://github.com/adityaj07/heaplexx.git
+```
+
+2. _Navigate to the project directory and install dependencies for the project_
+
+```bash
+npm install
+```
+
+3. _Start the development server_
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="center"><h4>Consider giving the project a star ⭐</h4></div>
+<div align="center"><h4>Made by Aditya Joshi</h4></div>

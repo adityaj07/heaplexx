@@ -23,7 +23,7 @@ const Ticket: FC<TicketProps> = ({
 }) => {
   return (
     <>
-      <div className="bg-[#FFFFFF] dark:bg-[#3B3E47] w-[12rem] lg:w-[16rem] h-[32rem] lg:h-[39rem] relative pt-[0.8rem] shadow-xl">
+      <div className="bg-[#FFFFFF] dark:bg-[#3B3E47] w-[14rem] h-[36rem] lg:w-[16rem] lg:h-[39rem] relative pt-[0.8rem] shadow-xl">
         <Image
           src={ticketImage}
           alt={ticketTitle}
@@ -44,7 +44,7 @@ const Ticket: FC<TicketProps> = ({
           <div className="text-[0.8rem] md:text-[0.825rem] lg:text-[0.875rem]">
             {eventDate.date} | {eventDate.day} | {eventDate.time}
           </div>
-          <p className="text-center text-[0.8rem] md:text-[0.825rem] lg:text-[0.875rem] text-[#525965] dark:text-[#DFDFDF]">
+          <p className="text-center w-[80%] text-[0.8rem] md:text-[0.825rem] lg:text-[0.875rem] text-[#525965] dark:text-[#DFDFDF]">
             {address}
           </p>
           <button className="lg:py-[0.625rem] py-[0.4rem] lg:px-[2.5rem] px-[1.2rem] bg-black text-white text-[0.8rem]">

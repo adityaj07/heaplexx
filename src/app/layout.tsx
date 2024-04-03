@@ -3,6 +3,7 @@ import "./globals.css";
 import { fontSans } from "@/font";
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Heaplex Assignment",
@@ -29,6 +30,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

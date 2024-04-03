@@ -9,7 +9,7 @@ import { ModeToggle } from "./mode-toggle";
 const SportsComponent: FC = () => {
   return (
     <div className="w-full flex flex-col">
-      <div className="flex  justify-between items-center">
+      <div className="flex justify-between items-center">
         <h2 className={`${poppins.className} text-2xl font-bold w-fit`}>
           Sports
           <hr className="border border-[#738FFF] w-full mt-[5px]" />
@@ -19,7 +19,7 @@ const SportsComponent: FC = () => {
         </div>
       </div>
 
-      <div className="w-full pt-[25px] flex justify-center  items-center lg:justify-normal lg:items-start flex-wrap gap-[1rem] md:gap-[5rem] lg:gap-[0.875rem] h-full">
+      <div className="w-full pt-[25px] flex justify-center items-center lg:justify-normal lg:items-start flex-wrap gap-[1rem] md:gap-[5rem] lg:gap-[0.875rem] h-full">
         {SportsCardData.map((card) => (
           <SportsCard
             key={card.teamName}

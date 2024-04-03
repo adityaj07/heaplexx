@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/carousel";
 import { Ticketdata } from "@/data";
 import Ticket from "./Ticket";
+import { ChevronRight } from "lucide-react";
 
 const TicketCarousel: FC = () => {
   return (
@@ -16,7 +17,7 @@ const TicketCarousel: FC = () => {
       opts={{
         align: "start",
       }}
-      className="w-[15%] sm:w-[20%] md:w-[40%] lg:w-[60%] relative"
+      className="w-[19%] md:w-[40%] lg:w-[60%] relative"
     >
       <CarouselContent>
         {Ticketdata.map((ticket) => (
@@ -34,8 +35,9 @@ const TicketCarousel: FC = () => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious variant={"rectangle"}/>
-      <CarouselNext variant={"rectangle"}/>
+      <CarouselPrevious variant={"rectangle"} className="hidden lg:flex" />
+      <CarouselNext variant={"rectangle"} className="hidden lg:flex" />
+      
     </Carousel>
   );
 };
