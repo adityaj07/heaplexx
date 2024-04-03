@@ -16,7 +16,7 @@ const TicketCarousel: FC = () => {
       opts={{
         align: "start",
       }}
-      className="w-[60%] relative "
+      className="w-[15%] sm:w-[20%] md:w-[40%] lg:w-[60%] relative"
     >
       <CarouselContent>
         {Ticketdata.map((ticket) => (

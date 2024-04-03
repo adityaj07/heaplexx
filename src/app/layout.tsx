@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { fontSans } from "@/font";
 import { ThemeProvider } from "@/components/theme-provider";
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Heaplex Assignment",
@@ -16,10 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(
+      <body
+        className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
-        )}>
+        )}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

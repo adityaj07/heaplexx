@@ -9,8 +9,8 @@ interface AdProps {
 
 const Ad: FC<AdProps> = ({ image, title, content }) => {
   return (
-    <div className="bg-white dark:bg-[#3B3E47] w-[18rem] h-full p-[0.625rem] shadow-xl ">
-      <div className="border border-[#006555] h-full">
+    <div className="bg-white dark:bg-[#3B3E47] w-[15rem] md:w-[17rem] h-full p-[0.625rem] shadow-xl ">
+      <div className="border border-[#006555]/30">
         <Image
           src={image}
           alt={title}
@@ -19,10 +19,10 @@ const Ad: FC<AdProps> = ({ image, title, content }) => {
           className="object-contain"
         />
         <div className="px-[1.5rem] pb-[1.9rem]">
-          <h3 className="text-[1.4rem] font-semibold pt-[1.75rem] pb-[1.5rem]">
+          <h3 className="text-[1.3rem] font-semibold pt-[1.75rem] mb-[0.5rem]">
             {title}
           </h3>
-          <p className="prose text-[0.9rem]">{content}</p>
+          <p className="prose text-[0.8rem] pb-[4.6rem]">{content}</p>
         </div>
       </div>
     </div>
