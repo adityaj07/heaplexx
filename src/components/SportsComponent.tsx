@@ -3,16 +3,22 @@ import { poppins } from "@/font";
 import { FC } from "react";
 import SportsCard from "./SportsCard";
 import Ad from "./Ad";
+import { ModeToggle } from "./mode-toggle";
 
 interface SportsComponentProps {}
 
 const SportsComponent: FC<SportsComponentProps> = ({}) => {
   return (
     <div className="w-full flex flex-col">
-      <h2 className={`${poppins.className} text-2xl font-bold w-fit`}>
-        Sports
-        <hr className="border border-[#738FFF] w-full mt-[5px]" />
-      </h2>
+      <div className="flex justify-between items-center">
+        <h2 className={`${poppins.className} text-2xl font-bold w-fit`}>
+          Sports
+          <hr className="border border-[#738FFF] w-full mt-[5px]" />
+        </h2>
+        <div className="mr-6">
+        <ModeToggle/>
+        </div>
+      </div>
 
       <div className="w-full pt-[25px] flex flex-wrap gap-[0.875rem] h-full">
         {SportsCardData.map((card) => (
