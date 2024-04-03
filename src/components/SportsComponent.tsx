@@ -5,9 +5,8 @@ import SportsCard from "./SportsCard";
 import Ad from "./Ad";
 import { ModeToggle } from "./mode-toggle";
 
-interface SportsComponentProps {}
 
-const SportsComponent: FC<SportsComponentProps> = ({}) => {
+const SportsComponent: FC = () => {
   return (
     <div className="w-full flex flex-col">
       <div className="flex justify-between items-center">
@@ -36,8 +35,8 @@ const SportsComponent: FC<SportsComponentProps> = ({}) => {
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>
-      <div className="flex justify-center items-center my-5">
-        <button className="bg-[#2C9CF0] py-[10px] px-[30px] rounded-[3px]">
+      <div className="flex justify-center items-center mt-[3.125rem] mb-[3.3125rem]">
+        <button className="bg-[#2C9CF0] py-[10px] px-[30px] rounded-[3px] text-white font-semibold text-[0.875rem] hover:bg-[#118ded] transition-colors duration-150">
           Show more
         </button>
       </div>

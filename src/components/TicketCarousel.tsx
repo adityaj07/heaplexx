@@ -9,9 +9,7 @@ import {
 import { Ticketdata } from "@/data";
 import Ticket from "./Ticket";
 
-interface TicketCarouselProps {}
-
-const TicketCarousel: FC<TicketCarouselProps> = ({}) => {
+const TicketCarousel: FC = () => {
   return (
     // 50% on small screens and 33% on larger screens.
     <Carousel
