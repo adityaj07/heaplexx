@@ -16,7 +16,7 @@ const SportsCard: FC<SportsCardProps> = ({
   sport,
 }) => {
   return (
-    <div className="bg-white dark:bg-[#3B3E47] w-[18rem] h-full p-[0.625rem] drop-shadow-lg ">
+    <div className="bg-white dark:bg-[#3B3E47] w-[17rem] h-full p-[0.625rem] drop-shadow-lg ">
       <Image
         src={teamImage}
         alt={teamName}

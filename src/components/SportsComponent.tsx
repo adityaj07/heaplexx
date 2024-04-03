@@ -14,7 +14,7 @@ const SportsComponent: FC = () => {
           Sports
           <hr className="border border-[#738FFF] w-full mt-[5px]" />
         </h2>
-        <div className="mr-6">
+        <div className="mr-24">
         <ModeToggle/>
         </div>
       </div>
